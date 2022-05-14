@@ -37,7 +37,7 @@ export default function HomePageCarousel() {
         <div className='container carousel-container'>
             <Slider className='carousel' {...settings}>
                 <div className='carousel__item'>
-                    <img src="/1.jpg" alt="" />
+                    <img src="/1-min.jpg" alt="" />
                 </div>
                 <div className='carousel__item'>
                     <img src="/2.jpg" alt="" />
