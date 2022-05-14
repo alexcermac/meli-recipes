@@ -29,7 +29,7 @@ export default function RecipesPage() {
 				setRecipesList(recipes)
 			}
 		}
-	}, []);
+	}, [category]);
 	// useEffect(() => {
 	// 	if(category !== 'all') {
 	// 		console.log("is category");
