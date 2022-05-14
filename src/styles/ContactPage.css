@@ -1,0 +1,28 @@
+.form-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form__field input, .form__field textarea {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-family: 'Biko', sans-serif;
+}
+
+.form__field textarea {
+    height: 100px;
+}
+
+.form__field input:focus, .form__field textarea:focus {
+    outline: none;
+    border: 3px solid #996666;
+}
