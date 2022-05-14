@@ -1,0 +1,29 @@
+.recipe__header {
+    display: flex;
+}
+
+.recipe__image {
+    width: 400px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.recipe__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe__details h3 {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    color: #996666;
+}
+
+.recipe__details p {
+    font-size: 1.5rem;
+}
+
+.recipe__details__ingredients {
+    display: flex;
+}

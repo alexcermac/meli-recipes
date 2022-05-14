@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage'
 import RecipesPage from './pages/RecipesPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
+import RecipeDetailsPage from './pages/RecipeDetailsPage';
 
 function App() {
 	return (
@@ -16,8 +17,8 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route exact path="/" element={<HomePage />} />
-				{/* <Route exact path="/recipes/all" element={<RecipesPage />} /> */}
 				<Route path="/recipes/:category" element={<RecipesPage />} />
+				<Route path="/recipe/:id" element={<RecipeDetailsPage />} />
 				<Route path="/about" element={<AboutPage />} />
 				<Route path="/contact" element={<ContactPage />} />
 			</Routes>

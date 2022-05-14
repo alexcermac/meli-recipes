@@ -1,25 +1,26 @@
-.recipe {
+.recipes__recipe {
     display: flex;
     margin-bottom: 40px;
 }
 
-.recipe-photo {
+.recipes__recipe-photo {
     width: 250px;
     height: 250px;
     margin-right: 50px;
 }
 
-.recipe-photo img {
+.recipes__recipe-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.recipe-details h3 {
+.recipes__recipe-details h3 {
     letter-spacing: 1px;
     font-size: 1.5rem;
+    color: #996666;
 }
 
-.recipe-details p {
+.recipes__recipe-details p {
     font-size: 1.2rem;
 }

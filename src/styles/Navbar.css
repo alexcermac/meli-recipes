@@ -9,6 +9,7 @@ a {
     align-items: center;
     box-sizing: border-box;
     height: 64px;
+    margin-bottom: 40px;
 }
 
 .navbar__logo {
