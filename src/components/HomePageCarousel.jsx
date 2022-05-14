@@ -3,7 +3,7 @@ import Slider from "react-slick"
 import '../styles/HomePageCarousel.css'
 
 function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const { onClick } = props;
     return (
         <i
             className='fa-solid fa-arrow-right slider__rightArrow'
@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
   }
 
 function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const { onClick } = props;
     return (
         <i
             className='fa-solid fa-arrow-left slider__leftArrow'
